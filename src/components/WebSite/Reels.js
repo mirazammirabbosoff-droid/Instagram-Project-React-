@@ -16,10 +16,10 @@ class Reels extends React.Component {
     return (
       <div className="reels-page">
         <div className="reels-container">
-          {/* Главное фото/видео */}
+          
           <img src={main} alt="Reel" className="reels-main-img" />
 
-          {/* Верхняя шапка */}
+          
           <div className="reels-top">
             <div className="reels-title">
               <h2>Reels</h2>
@@ -28,7 +28,7 @@ class Reels extends React.Component {
             <img src={foto} alt="" className="camera-btn" />
           </div>
 
-          {/* Правая панель (иконки) */}
+          
           <div className="reels-right">
             <div>
               <img src={activity} alt="" />

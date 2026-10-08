@@ -131,7 +131,7 @@ class Activity extends React.Component {
               onClick={() => this.props.changePage('activity')} 
               style={{ cursor: 'pointer' }} 
               className="footer-icon" 
-            />
+            /> 
             <img 
               src={footer_profile} 
               alt="Profile" 
